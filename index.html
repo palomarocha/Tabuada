@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h2>Digite o número e confirme para gerar uma tabuada</h2>
+    <form id="multiplication-form">
+        <div class="form-control">
+            <label for="number">Tabuada do:</label>
+            <input type="number" name="number" id="number" placeholder="2" />
+        </div>
+        <div class="form-control">
+            <label for="mutiplicator">Multiplicar até:</label>
+            <input type="number" name="multiplicator" id="multiplicator" value="10" />
+        </div>
+        <input type="submit" value="Calcular" />
+    </form>
+
+    <div id="multiplication-table">
+        <h2 id="multiplication-title">Tabuada do número: <span></span></h2>
+        <div id="multiplication-operations">
+            <p>Informe um número para calcular uma tabuada...</p>
+        </div>
+    </div>
+
+    <div class="social-links">
+        <a href="https://github.com/palomarocha" target="_blank" class="github">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
+        </a>
+        <a href="https://www.linkedin.com/in/paloma-rocha-amaral-02239031a" target="_blank" class="linkedin">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+                alt="LinkedIn" />
+        </a>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>

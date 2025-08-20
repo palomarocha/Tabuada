@@ -23,4 +23,4 @@ Um site simples e interativo para gerar **tabuadas de qualquer número** até o 
 ---
 
 ## 🔗 Veja aqui :
-![Tabuada]()
+[Tabuada]()
